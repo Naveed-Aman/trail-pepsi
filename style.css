@@ -1,0 +1,280 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.logo img{
+width: 70px;
+height: 70px;
+}
+.brbr{
+border: none;
+    height: 80px;
+    margin-bottom: 2x;
+color: white;
+    background-color: rgb(25, 117, 192);
+    gap: 170px;
+}
+    
+
+.naveed{
+    position: absolute;
+    width: 45%;
+    float: right;
+    
+}
+.Anas{background-image: url(./sddefault.jpg);
+    width: 100%;
+    height: 600px;
+
+    background-repeat: no-repeat;
+    background-size: cover
+    
+
+}
+.xyz{
+    margin: 100px;
+}
+
+.job{
+    background-color: rgb(24, 108, 185);
+    
+    display: flex;}
+    
+
+button{
+
+    position: fixed;
+    width: 250PX;
+height: 40px;
+    padding: 5px;
+    text-align: center;
+margin: ; 
+    border-radius: 40px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    }
+    span{
+      background:rgb(255, 255, 255);  
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1; 
+
+    /* transition: 0.6s; */
+    
+    }
+    
+    button:hover {
+        
+        transition: 0.5s;
+    width: 30%;
+    background-color: rgb(236, 240, 244);
+    color: black;
+    }
+    button:hover{
+    border: rgb(255, 170, 41);
+    }
+    .multi{
+
+        margin-top: 30px;
+        display: flex;
+        background-image: url(./PEP_BWP_D.jpg) ;
+        background-repeat: no-repeat;
+    
+        
+    }
+    .multee{
+    margin: 0px;
+
+    }
+    .zz{
+    }
+    .twil{
+        
+        background-color: rgb(25, 135, 186);
+        display: flex;
+    }
+    .twil img{
+        margin-top: 50px;
+        gap: 50px;
+    }
+    .fst{background-color: rgb(16, 77, 168);
+    display: flex;
+width: 100%;
+height: 500px;}
+    .fst h1{
+        color: white;
+     text-align: justify;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 150px ;
+    }
+    .fst h6{
+        color: #ffffff;
+        font-size: smaller;
+        text-align: justify;
+    }
+    .fst img{
+        margin: 150px 50px 100px 0;
+        width: 400px;
+    }
+    .nm a img{
+    
+        width: 200px;
+    }
+    @media  screen and (max-width:600px)
+    {
+
+        .brbr{
+            border: none;
+                height: 80px;
+                margin-bottom: 2x;
+            color: rgb(255, 255, 255);
+                background-color: rgb(11, 82, 168);
+                gap: 20px;
+            } 
+            .logo img{
+                width: 40px;
+                height: 40px;
+                }
+                button{
+
+                    position: fixed;
+                    width: 80PX;
+                height: 10px;
+                    padding: 5px;
+                    text-align: center;
+                
+                    border-radius: 50px;
+                    border: 2px solid #ffffff;
+                    background: transparent;
+                    color: #ffffff;
+                    cursor: pointer;
+                    position: relative;
+                    overflow: hidden;
+                    }
+                    span{
+                      background:rgb(255, 255, 255);  
+                    height: 100%;
+                    width: 0%;
+                    border-radius: 25px;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    z-index: -1; 
+                
+                    /* transition: 0.6s; */
+                    
+                    }
+                    
+                    button:hover {
+                        
+                        transition: 0.7s;
+                    width: `15%;
+                    background-color: rgb(249, 250, 252);
+                    color: black;
+                    }
+                    button:hover{
+                    border: rgb(248, 157, 22);
+                    }
+                    .niv a{
+                        color: #ffffff;
+                    }
+                    .Anas{background-image: url(./sddefault.jpg);
+                        width: 100%;
+                        height: 200px;
+                    
+                        background-repeat: no-repeat;
+                        background-size: cover
+                        
+                    
+                    }
+                    .Anas iframe{
+                        width: 40px;
+                        height: 40px;
+                    }
+                    .xyz{
+                    
+                        margin: 40px;
+                    }
+                    .xyz img{
+                        margin: 20px;
+                        width: 80px;
+                        height: 90px;
+                    }
+                    .job div img{
+                        width: 80px;
+                    }
+                    .btn{
+                        display: none;
+                    }
+                    .multi{
+
+                        margin-top: 10px;
+                        display: flex;
+                        background-color: rgb(255, 255, 255);
+                    }
+                    .headpic th img{
+                        width: 360px;
+                        height: 310px;
+                    }
+                    .headvid th iframe{
+                        width: 360px;
+                        height: 360px;
+                    }
+                    .twil{
+                        width: 360px;
+                        background-color: rgb(136, 186, 108);
+                    }
+                    .twil img{
+                        margin: 20px;
+                        gap: 30px;
+                        width: 120px;
+                        height: 140px;
+                    }
+                    .fst{background-color: rgb(25, 101, 214);
+                        display: flex;
+                    width: 360px;
+                    height: 200px;}
+                        .fst h1{
+                            font-size: large;
+                            color: rgb(247, 244, 244);
+                         text-align: justify;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                            margin: 40px ;
+                        }
+                        .fst h6{
+                            color: rgb(25, 101, 214);
+                        }
+                       
+                        } 
+                        .ining img{
+                            padding: 0px 0px 0px 0 ;
+                             margin: 40px 50px 40px 0px;
+                            width: 130px;
+                        }
+                        .nm{
+                            width: 360px;
+                        }
+                        .nm  h1{
+                           
+                            font-size: small;
+                            color: rgb(165, 69, 255);
+                        }
+                        .nm a img{
+                            width: 40px;
+                        }
+                        .nb{
+                            width: 360px;
+                            font-size: small;
+                            background-color: rgb(87, 214, 214);
+                        }
+                        
+    }
